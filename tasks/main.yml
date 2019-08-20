@@ -1,0 +1,12 @@
+---
+# tasks file for ansible-role-glusterfs
+
+- include: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+
+- name: Ensure GlusterFS is running and enabled at boot.
+  service:
+    name: glusterd
+    state: started
+    enabled: yes
+    

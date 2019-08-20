@@ -1,0 +1,5 @@
+---
+- name: Glusterfs
+  hosts: all
+  roles:
+    - role: ansible-role-glusterfs
