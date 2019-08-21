@@ -8,5 +8,7 @@
   service:
     name: glusterd
     state: started
-    enabled: yes
+    enabled: true
+
+
     
