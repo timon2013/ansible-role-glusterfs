@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/timon2013/ansible-role-glusterfs.svg?branch=master)](https://travis-ci.org/timon2013/ansible-role-glusterfs)
+
 Role Name
 =========
 
